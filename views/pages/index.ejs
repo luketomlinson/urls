@@ -10,112 +10,224 @@
   <% include ../partials/header.ejs %>
 </head>
   <body>
-      
-      <h3 id="series">Top Level Items</h3>
-      <div class="list-group">
-      <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/" target="_blank">Home</a>
-      <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/featured" target="_blank">Featured (same as Home)</a>
-      <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/kids" target="_blank">Kids</a>
-      <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/shows" target="_blank">Shows</a>
+
+    <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#home">iOS and Web</a></li>
+      <li><a data-toggle="tab" href="#menu1">Android</a></li>
+    </ul>
+
+    <div class="tab-content">
+      <div id="home" class="tab-pane fade in active">
+        <h3>iOS and Web</h3>
+        <h3 id="series">Top Level Items</h3>
+          <div class="list-group">
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/" target="_blank">Home</a>
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/featured" target="_blank">Featured (same as Home)</a>
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/kids" target="_blank">Kids</a>
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/shows" target="_blank">Shows</a>
+          </div>
+
+          <h3 id="media-episodes--movies">Media: Episodes &amp; Movies</h3>
+          <div class="list-group">
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/media/blackstone/-/episode-2/45ac-00003415f7b" target="_blank">Blackstone S3:Ep2</a>
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/media/blackstone/season-1/episode-3/45ac-00003462f9c" target="_blank">Blackstone S1:Ep3</a>
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/media/blackstone/season-1/episode-4/45ac-00002a5d985" target="_blank">Blackstone S1:Ep4</a>
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/media/coronation-street/-/episode-8997/45ac-00014d833c9" target="_blank">Coronation Street Ep8997</a>
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/media/the-nature-of-things/season-55/episode-6/45ac-000045878f3" target="_blank">The Nature of Things S55:Ep6</a>
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/media/the-nature-of-things/-/episode-5/45ac-00002c1ff63" target="_blank">The Nature Of Things Episode 5<span class="badge">PREMIUM</span></a>
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/media/heartland/season-8/episode-1/45ac-00003b0eb43" target="_blank">Heartland S8:E1 <span class="badge">MEMBER</span></a>
+
+
+          </div>
+          <h3 id="series">Series</h3>
+          <div class="list-group">
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/series/blackstone/d5467f25-225d-4519-9f1e-7e547fb06432" target="_blank">Blackstone Series Page</a>
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/series/heartland/4ebe64d7-5765-4756-b15f-bbac5980601a" target="_blank">Heartland Series Page</a>
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/series/absolutely-canadian/92184cde-b474-451e-bb8a-496a6855076f" target="_blank">Absolutely Canadian Series Page</a>
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/series/fool-canada/all/05a15080-77fb-44d0-9576-c89a2ee0e5cc" target="_blank">Fool Canada Series</a>
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/series/keeping-canada-alive/857ab2c5-6325-4149-9c19-21a77ae47c4a" target="_blank">Keeping Canada Alive Series Page</a>
+          </div>
+          <h3 id="season">Season</h3>
+          <div class="list-group">
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/season/blackstone/season-1/9020950c-c1c4-4afa-9963-5df6638fdb0b" target="_blank">Blackstone Season 1</a>
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/season/blackstone/season-3/8d18643e-e846-451f-a67f-19d2af903697" target="_blank">Blackstone Season 3</a>
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/season/heartland/season-8/e6c16e2b-c440-403d-aff5-7252f84cda3f" target="_blank">Heartland Season 8</a>
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/season/heartland/season-9/21a17884-b370-40ce-ac25-59eb27340a2c" target="_blank">Heartland Season 9</a>
+          </div>
+          <h3 id="seasonless-show">Seasonless Show</h3>
+          <div class="list-group">
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/series/coronation-street/all/5db16e82-7aaf-469f-9b67-bfbe30b0f870" target="_blank">Coronation Street Seasonless Show Page</a>
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/series/murdoch-mysteries/all/2f88343e-87c3-4381-b7c7-5f8e1d5cd73f" target="_blank">Murdoch Mysteries Seasonless Shows Page</a>
+          </div>
+          <h3 id="categories">Categories</h3>
+          <div class="list-group">
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/category/shows/all/289e6419-0f7f-45ff-9bc1-bc749109adb8" target="_blank">All Shows</a>
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/category/shows/canada-150/95ab7c04-4179-46de-8324-c913054950a3" target="_blank">Canada 150</a>
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/category/shows/canadian-history/8e60e60a-0d76-4988-8fa1-f78e5252a983" target="_blank">Canadian History</a>
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/category/shows/genre/documentary/10fb27bd-077e-40b9-a267-d37e3abeac22" target="_blank">Documentaries</a>
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/category/shows/coronation-street/682e16ef-276b-49c0-80bc-58dbb6762301" target="_blank">Coronation Street Category</a>
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/category/documentaries/all/fefebeee-5161-4be7-bf35-2a13d2f096a9" target="_blank">Documentaries/All</a>
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/category/documentaries/doc-spotlight/90b29601-c64b-48c6-b1e6-9930e430c3a9" target="_blank">Doc Spotlight</a>
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/category/documentaries/genre/crime-justice/18c2e8ae-fb92-422d-b0b5-79f1d2719735" target="_blank">Crime-Justice</a>
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/category/documentaries/genre/health/eb61f77e-95ef-455e-974a-cab5540c7d59" target="_blank">Health</a>
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/category/documentaries/genre/history/91b7c35f-9277-4035-8330-03bc44c64fe3" target="_blank">History</a>
+          </div>
+          <h3 id="pop-up-categories">Pop-up Categories</h3>
+          <div class="list-group">
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/category/pop-up-diagnosis/featured-all/d2f0002b-e4f2-4572-8652-94d733759922" target="_blank">Pop Up Diagnosis</a>
+          </div>
+          <h3 id="preprod-always-on">PreProd always on</h3>
+          <div class="list-group">
+          <p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/772022339654" target="_blank">Test Live Event</a></a>
+
+          <p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/1007562307930" target="_blank">Another Test Live Event</a></a>
+
+          </div>
+          <h3 id="regional-channels">Regional Channels</h3>
+          <div class="list-group">
+          <p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/920604739687" target="_blank">Ottawa</a>
+
+          <p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/929171523824" target="_blank">St. Johns<span class="badge">MEMBER</span></a>
+
+          <p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/939944003798" target="_blank">Toronto<span class="badge">MEMBER</span></a>
+
+          <p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/939944003611" target="_blank">Vancouver<span class="badge">MEMBER</span> </a>
+
+          <p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/939943491709" target="_blank">Edmonton<span class="badge">MEMBER</span></a>
+
+          <p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/939938884002" target="_blank">Calgary<span class="badge">MEMBER</span></a>
+
+          <p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/939937347698" target="_blank">Regina<span class="badge">MEMBER</span></a>
+
+          <p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/939932739734" target="_blank">Winnipeg<span class="badge">MEMBER</span></a>
+
+          <p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/939929667586" target="_blank">Yellowknife<span class="badge">MEMBER</span></a>
+
+          <p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/939921987641" target="_blank">Windsor<span class="badge">MEMBER</span></a>
+
+          <p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/939911235579" target="_blank">Halifax<span class="badge">MEMBER</span></a>
+
+          <p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/939908163619" target="_blank">Fredericton<span class="badge">MEMBER</span></a>
+
+          <p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/939761219948" target="_blank">Charlottetown<span class="badge">MEMBER</span></a>
+
+          <p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/929200707699" target="_blank">Montreal<span class="badge">MEMBER</span></a>
+
+          </div>
+          <h3 id="news-net">News Net</h3>
+          <div class="list-group">
+          <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/939949635618" target="_blank">News Net<span class="badge">PREMIUM</span></a>
+          </div>
+
+          <h3>Non Content Pages</h3>
+          <div class="list-group">
+              <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/join-now" >Join Now</a>
+              <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/try-premium" >Try Premium</a>
+          </div>
       </div>
 
-<h3 id="media-episodes--movies">Media: Episodes &amp; Movies</h3>
-<div class="list-group">
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/media/blackstone/-/episode-2/45ac-00003415f7b" target="_blank">Blackstone S3:Ep2</a>
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/media/blackstone/season-1/episode-3/45ac-00003462f9c" target="_blank">Blackstone S1:Ep3</a>
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/media/blackstone/season-1/episode-4/45ac-00002a5d985" target="_blank">Blackstone S1:Ep4</a>
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/media/coronation-street/-/episode-8997/45ac-00014d833c9" target="_blank">Coronation Street Ep8997</a>
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/media/the-nature-of-things/season-55/episode-6/45ac-000045878f3" target="_blank">The Nature of Things S55:Ep6</a>
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/media/the-nature-of-things/-/episode-5/45ac-00002c1ff63" target="_blank">The Nature Of Things Episode 5<span class="badge">PREMIUM</span></a>
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/media/heartland/season-8/episode-1/45ac-00003b0eb43" target="_blank">Heartland S8:E1 <span class="badge">MEMBER</span></a>
+
+      <div id="menu1" class="tab-pane fade">
+        <h3>Android</h3>
+        
+          <h3 id="series">Top Level Items</h3>
+          <div class="list-group">
+          <a class="list-group-item" href="https://watch.cbc.ca/" target="_blank">Home</a>
+          <a class="list-group-item" href="https://watch.cbc.ca/featured" target="_blank">Featured (same as Home)</a>
+          <a class="list-group-item" href="https://watch.cbc.ca/kids" target="_blank">Kids</a>
+          <a class="list-group-item" href="https://watch.cbc.ca/shows" target="_blank">Shows</a>
+          </div>
+
+          <h3 id="media-episodes--movies">Media: Episodes &amp; Movies</h3>
+          <div class="list-group">
+          <a class="list-group-item" href="https://watch.cbc.ca/media/schitts-creek/season-4/episode-5/38e815a-00d9e30e2a1" target="_blank">Schitt's Creek S4:Ep5</a>
+          <a class="list-group-item" href="https://watch.cbc.ca/media/crawford/season-1/episode-1/38e815a-00dbffd3bee" target="_blank">Crawford S1:Ep1</a>
+          <a class="list-group-item" href="https://watch.cbc.ca/media/crawford/season-1/episode-4/38e815a-00dc00d052d" target="_blank">Crawford S1:Ep4</a>
+          <a class="list-group-item" href="https://watch.cbc.ca/media/movies/-/i-killed-my-mother-jai-tue-ma-mere/38e815a-00ce23a2ef6" target="_blank">I Killed My Mother</a>
+          <a class="list-group-item" href="https://watch.cbc.ca/media/movies/-/path-of-souls/38e815a-00c885045f8" target="_blank">Path of Souls</a>
+        
 
 
-</div>
-<h3 id="series">Series</h3>
-<div class="list-group">
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/series/blackstone/d5467f25-225d-4519-9f1e-7e547fb06432" target="_blank">Blackstone Series Page</a>
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/series/heartland/4ebe64d7-5765-4756-b15f-bbac5980601a" target="_blank">Heartland Series Page</a>
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/series/absolutely-canadian/92184cde-b474-451e-bb8a-496a6855076f" target="_blank">Absolutely Canadian Series Page</a>
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/series/fool-canada/all/05a15080-77fb-44d0-9576-c89a2ee0e5cc" target="_blank">Fool Canada Series</a>
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/series/keeping-canada-alive/857ab2c5-6325-4149-9c19-21a77ae47c4a" target="_blank">Keeping Canada Alive Series Page</a>
-</div>
-<h3 id="season">Season</h3>
-<div class="list-group">
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/season/blackstone/season-1/9020950c-c1c4-4afa-9963-5df6638fdb0b" target="_blank">Blackstone Season 1</a>
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/season/blackstone/season-3/8d18643e-e846-451f-a67f-19d2af903697" target="_blank">Blackstone Season 3</a>
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/season/heartland/season-8/e6c16e2b-c440-403d-aff5-7252f84cda3f" target="_blank">Heartland Season 8</a>
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/season/heartland/season-9/21a17884-b370-40ce-ac25-59eb27340a2c" target="_blank">Heartland Season 9</a>
-</div>
-<h3 id="seasonless-show">Seasonless Show</h3>
-<div class="list-group">
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/series/coronation-street/all/5db16e82-7aaf-469f-9b67-bfbe30b0f870" target="_blank">Coronation Street Seasonless Show Page</a>
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/series/murdoch-mysteries/all/2f88343e-87c3-4381-b7c7-5f8e1d5cd73f" target="_blank">Murdoch Mysteries Seasonless Shows Page</a>
-</div>
-<h3 id="categories">Categories</h3>
-<div class="list-group">
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/category/shows/all/289e6419-0f7f-45ff-9bc1-bc749109adb8" target="_blank">All Shows</a>
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/category/shows/canada-150/95ab7c04-4179-46de-8324-c913054950a3" target="_blank">Canada 150</a>
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/category/shows/canadian-history/8e60e60a-0d76-4988-8fa1-f78e5252a983" target="_blank">Canadian History</a>
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/category/shows/genre/documentary/10fb27bd-077e-40b9-a267-d37e3abeac22" target="_blank">Documentaries</a>
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/category/shows/coronation-street/682e16ef-276b-49c0-80bc-58dbb6762301" target="_blank">Coronation Street Category</a>
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/category/documentaries/all/fefebeee-5161-4be7-bf35-2a13d2f096a9" target="_blank">Documentaries/All</a>
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/category/documentaries/doc-spotlight/90b29601-c64b-48c6-b1e6-9930e430c3a9" target="_blank">Doc Spotlight</a>
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/category/documentaries/genre/crime-justice/18c2e8ae-fb92-422d-b0b5-79f1d2719735" target="_blank">Crime-Justice</a>
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/category/documentaries/genre/health/eb61f77e-95ef-455e-974a-cab5540c7d59" target="_blank">Health</a>
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/category/documentaries/genre/history/91b7c35f-9277-4035-8330-03bc44c64fe3" target="_blank">History</a>
-</div>
-<h3 id="pop-up-categories">Pop-up Categories</h3>
-<div class="list-group">
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/category/pop-up-diagnosis/featured-all/d2f0002b-e4f2-4572-8652-94d733759922" target="_blank">Pop Up Diagnosis</a>
-</div>
-<h3 id="preprod-always-on">PreProd always on</h3>
-<div class="list-group">
-<p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/772022339654" target="_blank">Test Live Event</a></a>
+          </div>
+          <h3 id="series">Series</h3>
+          <div class="list-group">
+          <a class="list-group-item" href="https://watch.cbc.ca/series/this-blows/f022fb8f-f5fd-48b1-961c-1921b2d52975" target="_blank">This Blows</a>
+          <a class="list-group-item" href="https://watch.cbc.ca/series/little-dog/dfa2b9de-4b3a-40c0-9e28-7289e51a92c4" target="_blank">Little Dog</a>
+          <a class="list-group-item" href="https://watch.cbc.ca/series/crawford/8466bf43-081b-4e34-a4f0-96afa0f33306f" target="_blank">Crawford</a>
+          <a class="list-group-item" href="https://watch.cbc.ca/series/inside-an-athletes-head/fbfd24d9-27ca-48ed-bef1-331c98ce74f0" target="_blank">Inside an Athlete's head</a>
+          <a class="list-group-item" href="https://watch.cbc.ca/series/nadiyas-food-adventure/ecbf5aa8-68e2-48be-971c-80ec6580572c" target="_blank">Nadiyas Food Adventure</a>
+          </div>
 
-<p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/1007562307930" target="_blank">Another Test Live Event</a></a>
+          <h3 id="season">Season</h3>
+          <div class="list-group">
+          <a class="list-group-item" href="https://watch.cbc.ca/season/this-blows/season-1/661a93a5-716a-43c8-8a2e-2dd143c1b906" target="_blank">This Blows Season 1</a>
+          <a class="list-group-item" href="https://watch.cbc.ca/season/crawford/season-1/b0c53e89-587e-49cf-9c18-d69c049b2828" target="_blank">Crawford Season 1</a>
+          <a class="list-group-item" href="https://watch.cbc.ca/season/heartland/season-11/6eefe071-5cca-4b00-9c9a-acdf8c36328d" target="_blank">Heartland Season 11</a>
+          <a class="list-group-item" href="https://watch.cbc.ca/season/heartland/season-8/611b9a83-88a7-4027-bf79-69581089fdd6" target="_blank">Heartland Season 8</a>
+          </div>
 
-</div>
-<h3 id="regional-channels">Regional Channels</h3>
-<div class="list-group">
-<p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/920604739687" target="_blank">Ottawa</a>
+          <h3 id="seasonless-show">Seasonless Show</h3>
+          <div class="list-group">
+          <a class="list-group-item" href="https://watch.cbc.ca/series/coronation-street/all/ebc258f5-ee40-4cca-b66b-ba6bd55b72350" target="_blank">Coronation Street Seasonless Show Page</a>
+          </div>
 
-<p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/929171523824" target="_blank">St. Johns<span class="badge">MEMBER</span></a>
+          <h3 id="categories">Categories</h3>
+          <div class="list-group">
+          <a class="list-group-item" href="https://watch.cbc.ca/category/shows/genre/arts/7ca656fb-8b14-409b-8044-576ac8b9a11d" target="_blank">Shows/Genere/Arts</a>
+          <a class="list-group-item" href="https://watch.cbc.ca/category/shows/genre/factual-reality/0129c2b5-222e-41c0-89f2-67e9e74b9dc5" target="_blank">Shows/Genre/Factual Reality</a>
+          <a class="list-group-item" href="https://watch.cbc.ca/category/shows/digital-originals/861c3ad8-6824-47bb-aab1-38b2e6236345" target="_blank">Shows/Digital Originals</a>
+          <a class="list-group-item" href="https://watch.cbc.ca/category/shows/all/babb23ae-fe47-40a0-b3ed-cdc91e31f3d6" target="_blank">Shows/All</a>
+          <a class="list-group-item" href="https://watch.cbc.ca/category/shows/genre/music/e3c3f9c0-abfc-4502-9247-548b0b8c5cf3" target="_blank">Shows/Genre/Music</a>
+          </div>
+         
 
-<p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/939944003798" target="_blank">Toronto<span class="badge">MEMBER</span></a>
+          <h3 id="regional-channels">Regional Channels</h3>
+          <div class="list-group">
+          <p><a class="list-group-item" href="https://watch.cbc.ca/live/920604739687" target="_blank">Ottawa</a>
 
-<p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/939944003611" target="_blank">Vancouver<span class="badge">MEMBER</span> </a>
+          <p><a class="list-group-item" href="https://watch.cbc.ca/live/929171523824" target="_blank">St. Johns<span class="badge">MEMBER</span></a>
 
-<p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/939943491709" target="_blank">Edmonton<span class="badge">MEMBER</span></a>
+          <p><a class="list-group-item" href="https://watch.cbc.ca/live/939944003798" target="_blank">Toronto<span class="badge">MEMBER</span></a>
 
-<p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/939938884002" target="_blank">Calgary<span class="badge">MEMBER</span></a>
+          <p><a class="list-group-item" href="https://watch.cbc.ca/live/939944003611" target="_blank">Vancouver<span class="badge">MEMBER</span> </a>
 
-<p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/939937347698" target="_blank">Regina<span class="badge">MEMBER</span></a>
+          <p><a class="list-group-item" href="https://watch.cbc.ca/live/939943491709" target="_blank">Edmonton<span class="badge">MEMBER</span></a>
 
-<p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/939932739734" target="_blank">Winnipeg<span class="badge">MEMBER</span></a>
+          <p><a class="list-group-item" href="https://watch.cbc.ca/live/939938884002" target="_blank">Calgary<span class="badge">MEMBER</span></a>
 
-<p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/939929667586" target="_blank">Yellowknife<span class="badge">MEMBER</span></a>
+          <p><a class="list-group-item" href="https://watch.cbc.ca/live/939937347698" target="_blank">Regina<span class="badge">MEMBER</span></a>
 
-<p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/939921987641" target="_blank">Windsor<span class="badge">MEMBER</span></a>
+          <p><a class="list-group-item" href="https://watch.cbc.ca/live/939932739734" target="_blank">Winnipeg<span class="badge">MEMBER</span></a>
 
-<p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/939911235579" target="_blank">Halifax<span class="badge">MEMBER</span></a>
+          <p><a class="list-group-item" href="https://watch.cbc.ca/live/939929667586" target="_blank">Yellowknife<span class="badge">MEMBER</span></a>
 
-<p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/939908163619" target="_blank">Fredericton<span class="badge">MEMBER</span></a>
+          <p><a class="list-group-item" href="https://watch.cbc.ca/live/939921987641" target="_blank">Windsor<span class="badge">MEMBER</span></a>
 
-<p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/939761219948" target="_blank">Charlottetown<span class="badge">MEMBER</span></a>
+          <p><a class="list-group-item" href="https://watch.cbc.ca/live/939911235579" target="_blank">Halifax<span class="badge">MEMBER</span></a>
 
-<p><a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/929200707699" target="_blank">Montreal<span class="badge">MEMBER</span></a>
+          <p><a class="list-group-item" href="https://watch.cbc.ca/live/939908163619" target="_blank">Fredericton<span class="badge">MEMBER</span></a>
 
-</div>
-<h3 id="news-net">News Net</h3>
-<div class="list-group">
-<a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/live/939949635618" target="_blank">News Net<span class="badge">PREMIUM</span></a>
-</div>
+          <p><a class="list-group-item" href="https://watch.cbc.ca/live/939761219948" target="_blank">Charlottetown<span class="badge">MEMBER</span></a>
 
-<h3>Non Content Pages</h3>
-<div class="list-group">
-    <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/join-now" >Join Now</a>
-    <a class="list-group-item" href="https://cbc-demo.willowtreeapps.com/try-premium" >Try Premium</a>
-  </div>
+          <p><a class="list-group-item" href="https://watch.cbc.ca/live/929200707699" target="_blank">Montreal<span class="badge">MEMBER</span></a>
+
+          </div>
+          <h3 id="news-net">News Net</h3>
+          <div class="list-group">
+          <a class="list-group-item" href="https://watch.cbc.ca/live/939949635618" target="_blank">News Net<span class="badge">PREMIUM</span></a>
+          </div>
+
+          <h3>Non Content Pages</h3>
+          <div class="list-group">
+              <a class="list-group-item" href="https://watch.cbc.ca/join-now" >Join Now</a>
+              <a class="list-group-item" href="https://watch.cbc.ca/try-premium" >Try Premium</a>
+          </div>
+
+      </div>
+    </div>
+
+      
+    
 
 </body>                                
 </html>
